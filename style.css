@@ -8,9 +8,6 @@ body,html{
     font-family: 'Syncopate', sans-serif;
 }
 
-.title{
-
-}
 .keys{
     height: 100vh;
     display:flex;
@@ -28,10 +25,13 @@ body,html{
     align-items: center;
     justify-content: center;
     text-align: center;
-    transition:   .07s ease;
+ 
+    transition: all 0.091s ease;
+    width: 10rem;
 }
 kbd{
     display: block;
+    
 }
 .kick{
     position:static;
@@ -43,9 +43,11 @@ kbd{
 .playing{
     border-radius: 40px;
    
-    box-shadow: 0 0 10px #8564a7;
+
     transform: scale(1.1);
-    
+ 
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
     background: #8564a7; 
     border-radius: 50%;
 }
